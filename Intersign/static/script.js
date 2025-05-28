@@ -77,7 +77,7 @@ async function captureAndStoreFrame() {
   const base64Image = canvas.toDataURL("image/jpeg");
 
   try {
-    const response = await fetch("http://localhost:5000/predict", {
+    const response = await fetch("https://inter-sign.onrender.com/predict", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ image: base64Image }),
