@@ -95,7 +95,6 @@ instance/
 # Static file cache
 *.sass-cache
 
-# Deployment-related
-Procfile
+
 
 data 
