@@ -5,6 +5,8 @@ import cv2
 import numpy as np
 import mediapipe as mp
 import pickle
+import os
+
 
 from flask import Flask, send_from_directory, jsonify, request
 
